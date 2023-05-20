@@ -14,12 +14,13 @@
 
 .logo {
     text-align: center;
+    margin: 10px 0 20px;
 }
 .heder-nav {
     margin-bottom: 20px;
 }
 .nav-menu,
-.nav__menu-footer {
+.nav-menu-footer {
     padding: 0;
     list-style-type: none;
 }
@@ -93,35 +94,74 @@
     text-align: center;
 }
 
+.icon-box {
+    margin-bottom: 20px;
+}
+
 .icon {
     margin-right: 76px;
+    transition: 0.5s; 
 }
 
 .icon:last-child {
     margin-right: 0;
 }
 
+.icon:hover {
+    transform: rotate(360deg);
+}
+
+.section2 {
+    text-align: center;
+}
+
 .text-header {
     font-size: 96px;
     color: black;
+    margin: 0;
 }
 
-span {
+.red {
     color:#F15B40;
 }
 .text-content {
     font-size: 18px;
     max-width: 1000px;
-    margin: 0 auto 20px auto;
+    margin: 20px auto;
 }
 
 .page-button {
     font-size: 36px;
     border: none;
+    margin-bottom: 20px;
     background-color: #FFE2B0;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 250px;
+    height: 55px;
 }
 .page-button:hover {
     font-size: 38px;
     border: none;
     color: #F15B40;
+    background-color: #FFE2B0;
+    border: 1px solid #F15B40;
+    border-radius: 30px;
+    width: 250px;
+    height: 55px;
+
+}
+
+.map {
+    margin-bottom: 20px;
+}
+
+.line {
+    border: 1px solid #999999;
+    width: 1024px;
+    margin: 0 auto 20px;
+}
+
+.footer-nav {
+    height: 80px;
 }
